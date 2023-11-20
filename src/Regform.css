@@ -1,0 +1,78 @@
+.regform{
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 100%;
+    margin: 0, auto;
+    box-sizing: border-box;
+
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+label{
+    margin-bottom: 5px;
+    font-size: x-large;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 10px ,20px;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+    
+}
+
+button:hover{
+    background-color: blue;
+
+}
+
+select{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.form-group1{
+    display: flex;
+    flex-direction: left;
+    margin-bottom: 20px;
+}
+
+.warning{
+    color: red;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.gender{
+    width:90px
+}
+
+.delivarymode{
+    width: 90px;
+}
+
+textarea{
+    width: 100%;
+}
